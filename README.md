@@ -10,3 +10,4 @@
 # Equipo:
 
 * Marco Antonio Manzo Ruiz
+* Juan Pablo Morales Durante
