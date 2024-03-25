@@ -10,4 +10,6 @@
 # Equipo:
 
 * Marco Antonio Manzo Ruiz
+* Aimeé Ramírez Carmona
+* Mario Arturo Sánchez Ruelas
 * Juan Pablo Morales Durante
