@@ -1,4 +1,4 @@
-# Repositorio para la aplicación Web/Móvil para Dejando Huela
+# Repositorio para la aplicación Web/Móvil para Dejando Huella
 
 # Tecnologías:
 
