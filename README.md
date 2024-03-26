@@ -13,3 +13,4 @@
 * Aimeé Ramírez Carmona
 * Mario Arturo Sánchez Ruelas
 * Juan Pablo Morales Durante
+* Ximena Vazquez Mellado Flores
