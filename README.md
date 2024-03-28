@@ -1,4 +1,4 @@
-# Repositorio para la aplicación Web/Móvil para Dejando Huela
+# Repositorio para la aplicación Web/Móvil para Dejando Huella
 
 # Tecnologías:
 
@@ -10,3 +10,7 @@
 # Equipo:
 
 * Marco Antonio Manzo Ruiz
+* Aimeé Ramírez Carmona
+* Mario Arturo Sánchez Ruelas
+* Juan Pablo Morales Durante
+* Ximena Vazquez Mellado Flores
