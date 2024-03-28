@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   runtimeConfig: {
     MONGO_URI: process.env.MONGODB_URI
+    
   },
   css:[
     'vuetify/lib/styles/main.sass',
