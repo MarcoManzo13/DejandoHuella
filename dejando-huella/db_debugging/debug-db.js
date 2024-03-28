@@ -1,8 +1,10 @@
+// Testing Script for BD
+// Serves to check if BD is UP
 import mongoose from 'mongoose';
 
 async function testConnection() {
-  // Reemplaza <usuario>, <contraseña> y <nombre-de-tu-base-de-datos> con tus credenciales reales
-  const uri = 'mongodb+srv://jp:root@playground1.xa92lcc.mongodb.net/';
+//Can directly test connection using uri, ONLY FOR TESTING PURPOSES
+  const uri = null;
 
   try {
     await mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });

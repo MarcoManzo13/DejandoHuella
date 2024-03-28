@@ -1,3 +1,5 @@
+// Script tester de conexión usando Nitro
+
 import mongoose from "mongoose"
 
 export default defineNitroPlugin(async (app) => {
