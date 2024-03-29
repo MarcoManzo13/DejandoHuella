@@ -14,3 +14,4 @@
 * Mario Arturo Sánchez Ruelas
 * Juan Pablo Morales Durante
 * Ximena Vazquez Mellado Flores
+* Alejandro Sánchez González
