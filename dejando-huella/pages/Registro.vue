@@ -156,7 +156,7 @@ setup() {
         'Prefiero no decir',
     ])
     const submit = handleSubmit(async values => {
-        const {data: db, error, status} = await useFetch('/api/users/', {
+        const {data: db, error, status} = await useFetch('/api/user/register', {
         method: 'POST',
         timeout: 15000,
         body: {
