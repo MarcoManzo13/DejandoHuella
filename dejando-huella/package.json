@@ -12,6 +12,7 @@
   "dependencies": {
     "@mdi/font": "^7.4.47",
     "@vee-validate/nuxt": "^4.12.6",
+    "axios": "^1.6.8",
     "mongoose": "^8.2.1",
     "nuxt": "^3.10.3",
     "sass": "^1.71.1",

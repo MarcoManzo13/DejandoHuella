@@ -1,41 +1,45 @@
 <template>
+  <div>
     <div>
-        <template v-if="articulosIndividuales.length > 0">
-            <ArticulosIndividuales 
-                v-for="articulo in articulosIndividuales"
-                    :key="articulo.id"
-                    :imagen="articulo.imagen"
-                    :TituloArticulo="articulo.TituloArticulo"
-                    :DescripcionArticulo="articulo.DescripcionArticulo"
-            />
-        </template>
+      <div v-for="article in articles" :key="article._id">
+        <h2>{{ article.title }}</h2>
+        <p>{{ article.description }}</p>
+        
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
-  import pitbullImage from '../assets/imgArticulos/publicidad.png';
-  export default {
-    data() {
-      return {
-        articulosIndividuales: [
-          {
-            id: 1,
-            imagen: pitbullImage,
-            TituloArticulo: "Titulo del Artículo",
-            DescripcionArticulo: "Descripción del Artículo",
-          },
-          {
-            id: 2,
-            imagen: pitbullImage,
-            TituloArticulo: "Titulo del Artículo",
-            DescripcionArticulo: "Descripción del Artículo",
-          },
-        ],
-      };
-    },
-  };
-  </script>
+import pitbullImage from '../assets/imgArticulos/publicidad.png';
+export default {
+  data() {
+    return {
+      articulosIndividuales: [
+        {
+          id: 1,
+          imagen: pitbullImage,
+          TituloArticulo: db.title,
+          DescripcionArticulo: db.description,
+        },
+
+      ],
+    };
+  },
+  setup() {
+        const {data: db, error, status} = await useFetch('/api/articles/', {
+        method: 'GET',
+        timeout: 15000,
+
+      })
+        //alert(JSON.stringify(values, null, 2))
+  }
+};
+
+
+</script>
 
 <style scoped>
-    
+  
 </style>
+
