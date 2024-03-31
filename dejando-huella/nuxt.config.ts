@@ -30,6 +30,9 @@ export default defineNuxtConfig({
     //...
     '@vee-validate/nuxt',
   ],
+  plugins: [
+    '~/server/plugins/aws_s3_Connection.js' 
+  ],
   vite: {
     vue: {
       template: {
