@@ -7,7 +7,11 @@ export default defineNuxtConfig({
   //...
   devtools: { enabled: true },
   runtimeConfig: {
-    MONGO_URI: process.env.MONGODB_URI
+    MONGO_URI: process.env.MONGODB_URI,
+    awsAccessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    awsSecretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+    awsRegion: process.env.AWS_REGION,
+    awsBucketName: process.env.AWS_BUCKET_NAME,
     
   },
   css:[
@@ -31,7 +35,7 @@ export default defineNuxtConfig({
     '@vee-validate/nuxt',
   ],
   plugins: [
-    '~/server/plugins/aws_s3_Connection.js' 
+  
   ],
   vite: {
     vue: {
