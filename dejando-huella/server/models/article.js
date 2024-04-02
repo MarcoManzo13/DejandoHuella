@@ -5,9 +5,10 @@ const { Schema } = mongoose;
 // Define the article schema
 const articleSchema = new Schema({
 
+  imageURL: String,
   title: String,
   description: String,
-  imageURL: String,
+  
   // Add more fields as needed
 });
 
