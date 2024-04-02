@@ -3,6 +3,7 @@
     <template v-if="articles.length > 0">
       <div v-for="article in articles" :key="article._id">
         <h2>{{ article.title }}</h2>
+        <p>{{ article.imageURL }}</p>
         <p>{{ article.description }}</p>
         <!-- Add other fields as needed -->
       </div>
