@@ -12,6 +12,7 @@
                 chips
                 show-size
                 clearable
+                multiple
             />
 
             <!-- Añadir título del artículo -->
