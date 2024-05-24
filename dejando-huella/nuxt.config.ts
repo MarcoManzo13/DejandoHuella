@@ -28,6 +28,7 @@ export default defineNuxtConfig({
     },
     //...
     '@vee-validate/nuxt',
+    'nuxt-icon',
   ],
   vite: {
     vue: {
