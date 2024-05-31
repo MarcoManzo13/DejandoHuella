@@ -24,9 +24,14 @@
                             Chat
                         </v-btn>
                     </NuxtLink>
-                    <NuxtLink icon to="/Perfil">
+                    <NuxtLink icon to="/PerfilUsuario">
                         <v-btn style="color: #000;" variant="outlined" class="mx-2">
-                            Perfil
+                            Perfil Usuario
+                        </v-btn>
+                    </NuxtLink>
+                    <NuxtLink icon to="/PerfilAdministrador">
+                        <v-btn style="color: #000;" variant="outlined" class="mx-2">
+                            Perfil Admin
                         </v-btn>
                     </NuxtLink>
                 </template>

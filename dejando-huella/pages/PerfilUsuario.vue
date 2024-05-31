@@ -1,8 +1,11 @@
+<!-- Perfil del Usuario -->
 <template>
     <div>
-        <div class="d-flex flex-column">
-            <NuxtLink to="/CrearArticulos">Crear Artículos</NuxtLink>
-        </div>
+        <v-img
+            
+        >
+
+        </v-img>
     </div>
 </template>
 
