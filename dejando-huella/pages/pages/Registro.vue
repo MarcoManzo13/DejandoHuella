@@ -8,7 +8,6 @@
             <v-col cols="12" md="4" xl="4">
                 <v-card style="width: 100%; align-items: center; background-color: #F1EBD5;" class="ma-2 mb-10 pa-8" density="compact">
                     <form @submit.prevent="submit">
-                    
                     <!-- Nombre -->
                     <v-text-field
                         v-model="name.value.value"
@@ -18,7 +17,6 @@
                         clearable
                         variant="outlined"
                     ></v-text-field>
-                    
                     <!-- Appelido -->
                     <v-text-field
                         v-model="lastName.value.value"
@@ -28,7 +26,6 @@
                         clearable
                         variant="outlined"
                     ></v-text-field>
-                    
                     <!-- Celular -->
                     <v-text-field
                         v-model="celular.value.value"
@@ -38,7 +35,6 @@
                         clearable
                         variant="outlined"
                     ></v-text-field>
-                    
                     <!-- Correo -->
                     <v-text-field
                         v-model="email.value.value"
@@ -47,7 +43,6 @@
                         clearable
                         variant="outlined"
                     ></v-text-field>
-                    
                     <!-- Contraseña -->
                     <v-text-field
                         v-model="contrasena.value.value"
@@ -60,7 +55,6 @@
                         clearable
                         variant="outlined"
                     ></v-text-field>
-                    
                     <!-- Confirmar Contraseña -->
                     <v-text-field
                         v-model="confirmarContrasena.value.value"
@@ -73,7 +67,6 @@
                         clearable
                         variant="outlined"
                     ></v-text-field>
-                    
                     <!-- Género -->
                     <v-select
                         v-model="select.value.value"
@@ -82,8 +75,7 @@
                         label="Género"
                         clearable
                         variant="outlined"
-                    ></v-select>
-
+                    />
                         <div class="d-flex flex-column align-center justify-space-between">
                             <!-- Términos y condiciones -->
                             <v-checkbox
@@ -92,13 +84,13 @@
                                 label="¿Aceptas los términos y condiciones?"
                                 type="checkbox"
                                 value="1"
-                            ></v-checkbox>
-                        
+                            />
+
                             <!-- Botón Registro -->
                             <v-btn class="my-1" type="submit" style="width: 100%;">
                                 Registrarse
                             </v-btn>
-                        
+
                             <!-- Botón para llevar al usuario al registro -->
                             <NuxtLink to="/Registro" class="my-1" style="width: 100%;">
                                 <v-btn style="width: 100%;">

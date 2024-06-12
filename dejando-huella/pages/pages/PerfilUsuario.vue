@@ -24,9 +24,9 @@
                                 Mis Mascotas
                             </v-btn>
                         </NuxtLink>
-                        <NuxtLink to="/MascotasEncontradas" style="width: 100%;" class="my-3">
+                        <NuxtLink to="/RegistrarMascotas" style="width: 100%;" class="my-3">
                             <v-btn style="width: 100%;">
-                                Mascotas Encontradas
+                                Registro de Mascotas
                             </v-btn>
                         </NuxtLink>
                         <NuxtLink to="/AcercaDe" style="width: 100%;" class="my-3">
