@@ -35,7 +35,7 @@
                         </v-btn>
                     </NuxtLink>
                 </template>
-            </v-app-bar>      
+            </v-app-bar>
 
             <v-main>
                 <slot />
@@ -46,7 +46,7 @@
 
 
 <script>
-   
+
 </script>
 
 
