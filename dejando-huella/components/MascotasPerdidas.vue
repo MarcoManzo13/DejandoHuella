@@ -16,17 +16,23 @@
                 <p><span style="font-weight: 600;">Última ubicación de la mascota:</span> {{ $props.lugar }}</p>
                 <p><span style="font-weight: 600;">Última hora en la que se vió la mascota:</span> {{ $props.hora }}</p>
             </div>
-            <div class="d-flex flex-row justify-end px-10" style="width: 100%;">
-                <NuxtLink to="/Chat" class="mx-5" style="text-decoration: none; color: #000;">
-                    <v-btn>
-                        Chat
-                    </v-btn>
-                </NuxtLink>
-                <NuxtLink to="/" class="mx-5" style="text-decoration: none; color: #000;">
-                    <v-btn>
-                        Alerta
-                    </v-btn>
-                </NuxtLink>
+            <div style="width: 100%;" class="mt-5">
+                <v-row>
+                    <v-col cols="12" md="6" xl="6">
+                        <NuxtLink to="/Chat" style="text-decoration: none; color: #000;">
+                            <v-btn>
+                                Chat
+                            </v-btn>
+                        </NuxtLink>
+                    </v-col>
+                    <v-col cols="12" md="6" xl="6">
+                        <NuxtLink to="/" style="text-decoration: none; color: #000;">
+                            <v-btn>
+                                Alerta
+                            </v-btn>
+                        </NuxtLink>
+                    </v-col>
+                </v-row>
             </div>
         </v-card>
     </div>
