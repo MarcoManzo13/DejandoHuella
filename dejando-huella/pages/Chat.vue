@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <v-layout row fill-height>
         <v-navigation-drawer
             permanent
-            style="width: 30%; margin: 0; border: solid blue;"
+            style="width: 30%;"
         >
             <h2 class="my-3 ml-5">Chats</h2>
             <v-list>
@@ -42,10 +42,12 @@
                 </v-list-item>
             </v-list>
         </v-navigation-drawer>
-        <v-main style="width: 100%; margin-left: 15%">
+
+
+        <v-main class="d-flex align-center justify-center" style="width: 100%; height: 100%;">
             <ChatIndividual />
         </v-main>
-    </div>
+    </v-layout>
 </template>
 
 <script>
