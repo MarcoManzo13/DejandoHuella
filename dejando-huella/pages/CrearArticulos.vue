@@ -3,9 +3,9 @@
         <h1 style="width: 100%; text-align: center;">Crear un reporte</h1>
         <v-card style="width: 100%; align-items: center;" class="ma-2 pa-10" density="compact">
             <form @submit.prevent="submit">
-            
+
             <!-- Imagen -->
-            <v-file-input 
+            <v-file-input
                 label="Añadir imágen:"
                 v-model="imagen.value.value"
                 :error-messages="imagen.errorMessage.value"
@@ -31,7 +31,7 @@
                 label="Descripción del artículo:"
                 clearable
             ></v-text-field>
-    
+
             <!-- Términos y condiciones -->
             <v-checkbox
                 v-model="checkbox.value.value"
@@ -40,12 +40,12 @@
                 type="checkbox"
                 value="1"
             ></v-checkbox>
-    
+
             <!-- Botón Registrarse -->
             <v-btn class="me-4" type="submit">
                 Enviar
             </v-btn>
-    
+
             <!-- Botón reiniciar formulario -->
             <v-btn @click="handleReset">
                 Borrar Formulario
@@ -66,9 +66,9 @@ setup() {
             checkbox (value) {
                 if (value === '1') return true
                 return 'Debes aceptar los términos y condiciones.'
-            },    
+            },
         },
-    })    
+    })
     const imagen = useField('imagen')
     const titulo = useField('titulo')
     const descripcion = useField('descripcion')
